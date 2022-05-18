@@ -5,6 +5,7 @@
 	-Adopt Me
 	-Arsenal
 	-Bed Wars
+	-Bridge Worm 
 	-Da Hood
 	-DoomSpire BrickBattle
 	-Epic Minigames
@@ -23,6 +24,7 @@
 	-Tower Of Hell
 	-Tower Of Misery
 	-Trade Tower
+	
 })
 ]]
 local state = false
@@ -218,7 +220,12 @@ if game.PlaceId == 5023820864 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fireztron/Trade-Tower/main/testguiv2.lua"))()
 	print("Credits to Fireztron on V3rm")
 end
-
+if game.PlaceId == 5346891762 then
+	state = true
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-17014, 71, -1186)
+	wait()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1657, 114, -1317)
+end
 
 
 --GAME NOT SUPPORTED GUI
