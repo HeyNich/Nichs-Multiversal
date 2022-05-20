@@ -4,6 +4,7 @@
 	
 	-Adopt Me
 	-Arsenal
+	-Assassin
 	-Bed Wars
 	-Bridge Worm 
 	-Da Hood
@@ -226,7 +227,10 @@ if game.PlaceId == 5346891762 then
 	wait()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1657, 114, -1317)
 end
-
+if game.PlaceId == 379614936 then
+	state = true
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8F3vqkyXbHloHhf9BF4KeFK4XEjO2IpL49R9rGh/ratio/main/free.lua"))()
+end
 
 --GAME NOT SUPPORTED GUI
 
